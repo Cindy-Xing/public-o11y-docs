@@ -157,8 +157,7 @@ The following Infrastructure Monitoring metadata keys are required to enable Rel
 - ``k8s.node.name``
 - ``k8s.pod.name``
 - ``container.id``
-- ``k8s.namespace.name``
-- ``kubernetes.workload.name``
+
 
 If you're using the default configuration of the Splunk Distribution of the OpenTelemetry Collector for Kubernetes, the required Infrastructure Monitoring metadata is provided. See more at :ref:`otel-install-k8s`.
 
